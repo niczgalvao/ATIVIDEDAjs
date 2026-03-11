@@ -2,7 +2,7 @@ const Times = ["Palmeiras      ", "Flamengo       ", "Vasco          ", "Corinth
 const Pontos = [82, 80, 78, 42, 33, 20, 12, 3];
 
 
-function mostrarEstoque() {
+function mostrarTabela() {
     console.log("\n--- TABELA DE TIMES E PONTOS ---");
     let contador = 0;
     while (contador < Times.length) {
@@ -32,16 +32,16 @@ function removerTime(indice) {
 
 
 
-mostrarEstoque();
+mostrarTabela();
 
 
 adicionarTime("Santos         ", 55);
 
 
-mostrarEstoque();
+mostrarTabela();
 
 
 removerTime(6);
 
 
-mostrarEstoque();
+mostrarTabela();
